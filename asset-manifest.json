@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/distronix_front-end-test/static/css/main.bd82cb92.chunk.css",
-    "main.js": "/distronix_front-end-test/static/js/main.c1cfb456.chunk.js",
-    "main.js.map": "/distronix_front-end-test/static/js/main.c1cfb456.chunk.js.map",
+    "main.js": "/distronix_front-end-test/static/js/main.38f9d21f.chunk.js",
+    "main.js.map": "/distronix_front-end-test/static/js/main.38f9d21f.chunk.js.map",
     "runtime-main.js": "/distronix_front-end-test/static/js/runtime-main.ed5c058d.js",
     "runtime-main.js.map": "/distronix_front-end-test/static/js/runtime-main.ed5c058d.js.map",
     "static/css/2.1a02f21c.chunk.css": "/distronix_front-end-test/static/css/2.1a02f21c.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.8a6b26dc.chunk.js",
     "static/css/main.bd82cb92.chunk.css",
-    "static/js/main.c1cfb456.chunk.js"
+    "static/js/main.38f9d21f.chunk.js"
   ]
 }
