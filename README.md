@@ -1,5 +1,7 @@
 # Distronix Front End Test
 
+![Node.js CI](https://github.com/krishnapaul242/distronix_front-end-test/workflows/Node.js%20CI/badge.svg)
+
 This project is prepared in order to fulfill the requirements of the specifications discussed in the [Distronix Front End Test Document](https://docs.google.com/document/d/1vyI2nri7ydpuF4H1E5TGHjiGB2A3EX4-zUFhb6JiWiE/edit#heading=h.yllrvu9xdkbv)
 
 ## Tools and Technologies used in this project:
