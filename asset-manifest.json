@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/krishnapaul.in/distronix_front-end-test/static/css/main.bd82cb92.chunk.css",
-    "main.js": "/krishnapaul.in/distronix_front-end-test/static/js/main.06237dd7.chunk.js",
-    "main.js.map": "/krishnapaul.in/distronix_front-end-test/static/js/main.06237dd7.chunk.js.map",
-    "runtime-main.js": "/krishnapaul.in/distronix_front-end-test/static/js/runtime-main.737b1d2b.js",
-    "runtime-main.js.map": "/krishnapaul.in/distronix_front-end-test/static/js/runtime-main.737b1d2b.js.map",
-    "static/css/2.1a02f21c.chunk.css": "/krishnapaul.in/distronix_front-end-test/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.8a6b26dc.chunk.js": "/krishnapaul.in/distronix_front-end-test/static/js/2.8a6b26dc.chunk.js",
-    "static/js/2.8a6b26dc.chunk.js.map": "/krishnapaul.in/distronix_front-end-test/static/js/2.8a6b26dc.chunk.js.map",
-    "static/js/3.77d10945.chunk.js": "/krishnapaul.in/distronix_front-end-test/static/js/3.77d10945.chunk.js",
-    "static/js/3.77d10945.chunk.js.map": "/krishnapaul.in/distronix_front-end-test/static/js/3.77d10945.chunk.js.map",
-    "index.html": "/krishnapaul.in/distronix_front-end-test/index.html",
-    "static/css/2.1a02f21c.chunk.css.map": "/krishnapaul.in/distronix_front-end-test/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.bd82cb92.chunk.css.map": "/krishnapaul.in/distronix_front-end-test/static/css/main.bd82cb92.chunk.css.map",
-    "static/js/2.8a6b26dc.chunk.js.LICENSE.txt": "/krishnapaul.in/distronix_front-end-test/static/js/2.8a6b26dc.chunk.js.LICENSE.txt"
+    "main.css": "/distronix_front-end-test/static/css/main.bd82cb92.chunk.css",
+    "main.js": "/distronix_front-end-test/static/js/main.c1cfb456.chunk.js",
+    "main.js.map": "/distronix_front-end-test/static/js/main.c1cfb456.chunk.js.map",
+    "runtime-main.js": "/distronix_front-end-test/static/js/runtime-main.ed5c058d.js",
+    "runtime-main.js.map": "/distronix_front-end-test/static/js/runtime-main.ed5c058d.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/distronix_front-end-test/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.8a6b26dc.chunk.js": "/distronix_front-end-test/static/js/2.8a6b26dc.chunk.js",
+    "static/js/2.8a6b26dc.chunk.js.map": "/distronix_front-end-test/static/js/2.8a6b26dc.chunk.js.map",
+    "static/js/3.77d10945.chunk.js": "/distronix_front-end-test/static/js/3.77d10945.chunk.js",
+    "static/js/3.77d10945.chunk.js.map": "/distronix_front-end-test/static/js/3.77d10945.chunk.js.map",
+    "index.html": "/distronix_front-end-test/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/distronix_front-end-test/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.bd82cb92.chunk.css.map": "/distronix_front-end-test/static/css/main.bd82cb92.chunk.css.map",
+    "static/js/2.8a6b26dc.chunk.js.LICENSE.txt": "/distronix_front-end-test/static/js/2.8a6b26dc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.737b1d2b.js",
+    "static/js/runtime-main.ed5c058d.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.8a6b26dc.chunk.js",
     "static/css/main.bd82cb92.chunk.css",
-    "static/js/main.06237dd7.chunk.js"
+    "static/js/main.c1cfb456.chunk.js"
   ]
 }
