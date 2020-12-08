@@ -13,12 +13,12 @@ import api from '../API';
 
 const geoUrl = "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-const SVGMapScreen = async () => {
+const SVGMapScreen = () => {
   const { device_id, sensor_id } = useParams<{ device_id: string; sensor_id: string }>();
   const [Error, setError] = useState<string>("");
   const [MarkerData, setMarkerData] = useState<{ lat: number; lng: number }>();
   const [TextVisible, setTextVisible] = useState<boolean>(false)
-  await api.fetchData(device_id).then((response) => {
+  api.fetchData(device_id).then((response) => {
     const data = response.data;
     if (data.hasOwnProperty('latitude') && data.hasOwnProperty('longitude')) setMarkerData({ lat: data.latitude, lng: data.longitude });
     else setError("Bad Response");
