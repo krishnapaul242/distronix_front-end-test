@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
 import './style.css';
 
 const FormScreen = () => {
     const [deviceId, setDeviceId] = useState<string>();
-    const [sensorId, setSensorId] = useState<string>();
+  const [sensorId, setSensorId] = useState<string>();
+  const [ButtonActive, setButtonActive] = useState<boolean>(false)
     return (
       <div className="form-screen">
         <input
@@ -13,7 +15,10 @@ const FormScreen = () => {
           placeholder="Device ID"
           required={true}
           value={deviceId}
-          onChange={(e) => setDeviceId(e.target.value)}
+          onChange={(e) => {
+            setDeviceId(e.target.value);
+            setButtonActive(true);
+          }}
         ></input>
         <input
           type="text"
@@ -22,14 +27,23 @@ const FormScreen = () => {
           placeholder="Sensor ID"
           required={true}
           value={sensorId}
-          onChange={(e) => setSensorId(e.target.value)}
+          onChange={(e) => {
+            setSensorId(e.target.value)
+            setButtonActive(true)
+          }}
         ></input>
-        <button className="submit-button">
+        <Link
+          to={ButtonActive ? `/map/${deviceId}/${sensorId}` : "#"}
+          className="submit-button"
+        >
           See on Google Map
-        </button>
-        <button className="submit-button">
+        </Link>
+        <Link
+          to={ButtonActive ? `/map-alt/${deviceId}/${sensorId}` : "#"}
+          className="submit-button"
+        >
           See on Alternative Map
-        </button>
+        </Link>
       </div>
     );
 }
