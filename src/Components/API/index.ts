@@ -5,13 +5,17 @@ const instance = axios.create({
 });
 
 const api = {
-    fetchData: (device_id: string) => instance({
-        method: 'POST',
-        url: '/',
-        'data': {
-            'devid': device_id,
-        }
-    })
+  fetchData: (device_id: string) =>
+    instance({
+      headers: {
+        "Content-Type": "x-www-form-urlencoded",
+      },
+      method: "POST",
+      url: "/",
+      data: {
+        devid: device_id,
+      },
+    }),
 };
 
 export default api;
