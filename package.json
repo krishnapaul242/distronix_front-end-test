@@ -1,6 +1,7 @@
 {
   "name": "distronix_front-end-test",
   "version": "0.1.0",
+  "homepage": "krishnapaul.in/distronix_front-end-test/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
